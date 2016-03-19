@@ -1,0 +1,46 @@
+Metadata-Version: 1.1
+Name: Interval Statistics
+Version: 1.0
+Summary: Interval Statistics Package
+Home-page: UNKNOWN
+Author: Aline Brum Loreto, Alice Fonseca Finger, Lucas Mendes Tortelli, Mauricio Dorneles Caldeira Balboni, Vinicius Signori Furlan
+Author-email: aline.loreto@gmail.com, aliceffinger@gmail.com,lmtortelli@inf.ufpel.edu.br,mdcbalboni@inf.ufpel.edu.br,vsfurlan@inf.ufpel.edu.br
+License: GPL
+Description: This package provides statistics methods for Maximum Accuracy Interval Arithmetic.
+        
+        The Interval Arithmetic is a mathematical tool for the solution of problems
+        related to numerical errors, based on an algebraic system formed by all closed
+        intervals of Real Line (or rectangles of Complex Plane) and operations defined
+        on it. Rather than usual numerical algorithms, it's used interval algorithms
+        producing intervals containing the correct answer as a result.
+        
+        The Maximum Accuracy, on the other hand, provides an axiomatic method for
+        arithmetic operations performed in computers that capture essential properties
+        associated with rounding.
+        
+        The studies on large amounts of data , one needs to descriptive statistics in order to 
+        reduce the complexity of analyzing all the data. 
+        But these acquired data must be reliable and accurate . 
+        Thus joins use of the advantages of using descriptive statistics with the benefits provided by interval arithmetic .
+        Thus this package have as objectives to provide methods for calculation of descriptive indicators
+         to provide an automatic control errors and maximum accuracy.
+        
+        For more information about it, see:
+        
+        [1] Moore, R. E., Interval Analysis. Prentice-Hall, Englewood Cliffs, New
+            Jersey, 1966.
+        [2] Moore, R. E., Methods and Applications of Interval Analysis. SIAM Studies
+            in Applied Mathematics, Philadelphia, 1979.
+        [3] Kulisch, U. W., Miranker, W. L., Computer Arithmetic in Theory and
+            Practice. Academic Press, 1981.
+        [4] Loreto, A.B., Analise de Complexidade Computacional de Problemas de Estatistica Descritiva com Entradas Intervalares,
+        	Tese de Doutorado em PPGC, UFRGS, Porto Alegre, 2006.
+        [5] Ratschek, H., Rokne,J., New Computer Methods for Global Optimization., Ellis Horkwood, 1988.
+        
+        
+        It was developed in TEIa/UFPel (Brazil) by Aline Brum Loreto, Alice Fonseca Finger, Lucas Mendes Tortelli, Mauricio Dorneles Caldeira Balboni and Vinicius Signori Furlan
+        <lmtortelli@inf.ufpel.edu.br, lmtortelli@hotmail.com> and it's free software.
+Platform: Windows
+Platform: Linux
+Requires: fpconst
+Requires: intPy

@@ -36,9 +36,9 @@ The Maximum Accuracy, on the other hand, provides an axiomatic method for
 arithmetic operations performed in computers that capture essential properties
 associated with rounding.
 
-The studies on large amounts of data , one needs to descriptive statistics in order to 
-reduce the complexity of analyzing all the data. 
-But these acquired data must be reliable and accurate . 
+The studies on large amounts of data , one needs to descriptive statistics in order to
+reduce the complexity of analyzing all the data.
+But these acquired data must be reliable and accurate .
 Thus joins use of the advantages of using descriptive statistics with the benefits provided by interval arithmetic .
 Thus this package have as objectives to provide methods for calculation of descriptive indicators
  to provide an automatic control errors and maximum accuracy.
@@ -75,15 +75,15 @@ if __name__ == "__main__":
             "Linux"
         ],
         packages=[
-            "intStatisticts",
+            "intStatistics",
         ],
         package_dir={
-            "intStatisticts" : "src"
+            "intStatistics" : "src"
         },
         requires=[
             "fpconst",
             "intPy"
         ]
-       
-        
+
+
     )

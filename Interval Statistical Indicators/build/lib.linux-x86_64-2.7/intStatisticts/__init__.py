@@ -33,9 +33,9 @@ The Maximum Accuracy, on the other hand, provides an axiomatic method for
 arithmetic operations performed in computers that capture essential properties
 associated with rounding.
 
-The studies on large amounts of data , one needs to descriptive statistics in order to
-reduce the complexity of analyzing all the data.
-But these acquired data must be reliable and accurate .
+The studies on large amounts of data , one needs to descriptive statistics in order to 
+reduce the complexity of analyzing all the data. 
+But these acquired data must be reliable and accurate . 
 Thus joins use of the advantages of using descriptive statistics with the benefits provided by interval arithmetic .
 Thus this package have as objectives to provide methods for calculation of descriptive indicators
  to provide an automatic control errors and maximum accuracy.
@@ -57,8 +57,8 @@ It was developed in TEIa/UFPel (Brazil) by Aline Brum Loreto, Alice Fonseca Fing
 <lmtortelli@inf.ufpel.edu.br, lmtortelli@hotmail.com> and it's free software.
 """
 
-from intStatistics.intervalintStatistics import *
-from intStatistics.initInterval import *
+from intStatisticts.intervalintStatisticts import *
+from intStatisticts.initInterval import *
 
 def _test():
     from doctest import DocTestSuite

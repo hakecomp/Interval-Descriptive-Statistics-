@@ -2,7 +2,7 @@ from sys import *
 
 
 import time
-from intStatisticts import *
+from intStatistics import *
 from math import sqrt
 
 RS = [5.0,12.0,7.0,47.0,7.0,79.0,10.0,59.0,12.0,46.0,14.0,42.0,17.0,55.0,21.0,78.0,28.0,62.0,24.0]

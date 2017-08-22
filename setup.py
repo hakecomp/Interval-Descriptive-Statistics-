@@ -64,7 +64,7 @@ It was developed in TEIa/UFPel (Brazil) by Aline Brum Loreto, Alice Fonseca Fing
 if __name__ == "__main__":
     setup(
         name="intStatistics",
-        version="1.0",
+        version="0.1.7",
         description=_package_description[0],
         long_description="\n".join(_package_description[2:-1]),
         author="Aline Brum Loreto, Alice Fonseca Finger, Lucas Mendes Tortelli, Mauricio Dorneles Caldeira Balboni, Vinicius Signori Furlan",

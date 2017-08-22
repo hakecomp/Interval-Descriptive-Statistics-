@@ -1,0 +1,25 @@
+Metadata-Version: 1.0
+Name: intStatistics
+Version: 0.1.0
+Summary: Statistical indicators
+Home-page: https://lmtortelli.wordpress.com/intStatistics/
+Author: Lucas Mendes Tortelli
+Author-email: lmtortelli@inf.ufpel.edu.br , lmtortelli@hotmail.com
+License: GPL
+Description: This package provides statistical indicators for Maximum Accuracy Interval
+        Arithmetic.
+        The Interval Arithmetic is a mathematical tool for the solution of problems
+        related to numerical errors, based on an algebraic system formed by all closed
+        intervals of Real Line.
+        The Interval Statistical Indicators are quantitative metrics for analyse population and amostral datasets. When used with Interval Arithmetic provide a high accuracy and confiability.
+        For more information about this study, see related works:
+
+        [1] Moore, R. E., Interval Analysis. Prentice-Hall, Englewood Cliffs, New
+            Jersey, 1966.
+        [2] LORETO, Aline Brum. Análise da complexidade computacional de problemas de 		estatística descritiva com entradas intervalares. 2006.
+        [3] TORTELLI, L. M.; MARASCHIN JR., D. ; FINGER, A. F. ; LORETO, A. B. . Biblioteca 		Estatística Descritiva Intervalar utilizando Python. CNMAC, 2017.
+        This work is concluded actually. See in https://lmtortelli.wordpress.com/ for more 		future works. Thanks to apreciate.
+        It was developed in CDTec/UFPel (Brazil) by Aline Brum Loreto, Alice Fonseca Finger, Dirceu Maraschin Jr, Lucas Mendes Tortelli, Mauricio Dorneles Caldeira Balboni
+Platform: Windows
+Platform: Linux
+Requires: intPy

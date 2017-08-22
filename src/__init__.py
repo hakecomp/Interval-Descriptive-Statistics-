@@ -59,6 +59,7 @@ It was developed in TEIa/UFPel (Brazil) by Aline Brum Loreto, Alice Fonseca Fing
 
 from intStatistics.intervalintStatistics import *
 from intStatistics.initInterval import *
+from intStatistics.statisticsReal import *
 
 def _test():
     from doctest import DocTestSuite

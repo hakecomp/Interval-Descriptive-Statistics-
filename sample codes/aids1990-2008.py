@@ -1,9 +1,7 @@
 from sys import *
-from Erros import *
 
-from IndicadoresReais import *
 import time
-from intStatisticts import *
+from intStatistics import *
 from math import sqrt
 
 RS = [5.0,12.0,7.0,47.0,7.0,79.0,10.0,59.0,12.0,46.0,14.0,42.0,17.0,55.0,21.0,78.0,28.0,62.0,24.0]
@@ -13,14 +11,14 @@ incidenciasAIDSRS = initInterval(RS,0.00000000001)
 incidenciasAIDSSP = initInterval(SP,0.00000000001)
 
 
-print "Media:",MediaReal(RS)
-print "Mediana:",MedianaReal(RS)
-print "Amplitude:",AmplitudeTotalReal(RS)
-print "Variancia:",VarianciaReal(RS)
-print "Desvio Padrao:",DesvioPadraoReal(RS)
-print "Covariancia:",CovarianciaReal(RS,SP)
-print "Coeficiente de Correlacao:",CoefCorrelacaoReal(RS,SP)
-print "Coeficiente de Variacao:",CoefVariacaoReal(RS)
+print "Media:",average(RS)
+print "Mediana:",median(RS)
+print "Amplitude:",ranges(RS)
+print "Variancia:",variance(RS)
+print "Desvio Padrao:",deviance(RS)
+print "Covariancia:",coVariance(RS,SP)
+print "Coeficiente de Correlacao:",coefCorrelation(RS,SP)
+print "Coeficiente de Variacao:",coVariance(RS,SP)
 
 print ""
 print "Media:",iAverage(incidenciasAIDSRS)

@@ -76,6 +76,7 @@ if __name__ == "__main__":
         ],
         packages=[
             "intStatistics",
+            "intStatistics.utils"     
         ],
         package_dir={
             "intStatistics" : "src"

@@ -24,6 +24,7 @@ def initInterval(vetor,delta):
     for i in range(len(vetor)):
         vetorI.append(IReal(vetor[i]) + IReal(-delta,delta))
     return vetorI
+    
 # Interval SQRT
 def sqrtI(dado):
     result = IReal(sqrt(dado.inf), sqrt(dado.sup))
